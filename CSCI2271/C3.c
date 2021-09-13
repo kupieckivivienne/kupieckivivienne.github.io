@@ -1,3 +1,7 @@
+/*Author: Vivienne Kupiecki -- kupiecki@bc.edu 
+*Practice Codes!! 
+*Source: CSCI2271 In Class Lectures
+*/
 #include <stdio.h> 
 
 /* Prints a table of Fahrenheit and Celsius temperatures. 
