@@ -1,0 +1,40 @@
+body {
+    min-height:100vh; 
+    postion:relative; 
+    padding: 2%;
+    width:100%;
+    color: lightyellow;
+    font-family: Verdana, sans-serif;
+    background-color: #777777;
+}
+
+header{ 
+  width: 100%; 
+  text-align: center; 
+} 
+
+nav a{ 
+    text-decoration: none; 
+    border: 2px soldi #fff; 
+    background-color: blue;
+    font-size: 1.5em;
+    padding:1%;
+}
+
+hover{ 
+    background-color: darkblue;
+}
+
+ul li{ 
+    list-style: none;
+    padding-bottom: 2%; 
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: -50px;
+}
+  
