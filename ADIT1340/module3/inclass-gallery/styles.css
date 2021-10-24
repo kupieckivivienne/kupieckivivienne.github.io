@@ -15,8 +15,8 @@ header{
 
 nav a{ 
     text-decoration: none; 
-    border: 2px soldi #fff; 
-    background-color: blue;
+    border: 4px soldi #fff; 
+    background-color: lightblue;
     font-size: 1.5em;
     color: white;
     padding:1%;
