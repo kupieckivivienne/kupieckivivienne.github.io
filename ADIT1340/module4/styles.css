@@ -7,7 +7,7 @@
     }
     div {
       color: white;
-      text-align: left;
+      text-align: center;
     }
     
     img {
@@ -26,5 +26,5 @@
     }
     
     a {
-    color: rgb(156, 206, 226);
+    color: yellow; 
     }
