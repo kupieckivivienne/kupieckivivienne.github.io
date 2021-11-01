@@ -30,6 +30,7 @@
     font-family: Georgia; 
     }
 
-    footer { 
-      text-align: left; 
+    #footer { 
+      text-align: left;  
+      font-family: serif; 
 }
