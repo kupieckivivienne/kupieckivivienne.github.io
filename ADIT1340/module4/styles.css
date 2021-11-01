@@ -1,0 +1,30 @@
+  body {
+          background-color: rgb(29, 55, 82);
+          color: lightsteelblue;
+          font-family: times;
+          font-style: initial;
+          text-align: center; 
+    }
+    div {
+      color: white;
+      text-align: left;
+    }
+    
+    img {
+    width:75%;
+    }
+    
+    li  {
+    display:inline;
+    padding-left:1.5em;
+    }
+    
+    ul  {
+    background-color: #FFE4E1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.8em;
+    }
+    
+    a {
+    color: rgb(156, 206, 226);
+    }
