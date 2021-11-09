@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms, Survey </title>
+    <meta charset="UTF-8">
+   <meta name="description" content="Free Web tutorials">
+   <meta name="keywords" content="your, relevant, keywords, in, a, comma, separated, list">
+   <meta name="author" content="Your Name">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+
+        body {
+    font-size: 1.3em;
+    background-color: rgb(226, 207, 226);
+
+    }
+    content{
+    width:90%;
+    margin:auto;
+    }
+    h1 {
+    text-align:center;
+    }
+
+    h3 { 
+      color:rgb(97, 65, 97)
+    }
+    form {
+    margin-left:5%;
+    }
+    input {
+    margin-bottom:2%;
+ 
+    }
+    legend { 
+      color:rgb(97, 65, 97); 
+      font-weight: bold;
+    }
+
+    input#submit {
+    display:block;
+    background-color: #4b4868;
+    color: whitesmoke; 
+    font-weight:bold;
+    padding: 20px;
+    font-size: 1.5em;
+    }
+    #submit:hover {
+    background-color: whitesmoke;
+    color: #403d5c;
+    border:2px solid rgb(255, 255, 255);
+            }
+
+    select option {
+    font-size: 1.75em;
+    width: 150px;
+    }
+
+ 
+      
+    </style>
+    </head>
+    <body>
+    <h1>Music Survey</h1>
+      <div> 
+        <form action = "https://idesstage2.bc.edu/class/results.php" method="post"> 
+
+            <h3>First Name: </h3><br>
+            <input type = "text" id = "fname" name = "fname">
+
+            <h3>Last Name: </h3><br>
+            <input type = "text" id = "lname" name = "lname">
+        
+            <h3>Email Address: </h3><br> 
+            <input type = "email" id = "email" name = "email">
+            <fieldset>
+            <legend>Select your favorite genres of music:</legend>
+            <input type="checkbox" id="music1" name="music1" value="Pop">
+            <label for="music1">Pop</label><br>
+            <input type="checkbox" id="music2" name="music2" value="Electronic">
+            <label for="music2">Electronic</label><br>
+            <input type="checkbox" id="music3" name="music3" value="R&B">
+            <label for="music3">R&B</label><br>
+            <input type="checkbox" id="music4" name="music4" value="Country">
+            <label for="music4">Country</label><br>
+            <input type="checkbox" id="music5" name="music5" value="Rap">
+            <label for="music3">Rap</label><br>
+            <input type="checkbox" id="music6" name="music6" value="Alternative">
+            <label for="music3">Alternative</label><br>
+            </fieldset>
+
+            <fieldset>
+            <legend> What is your favorite streaming service?</legend>
+            <input type="radio" id = "spotify" name = "fav_stream" value = "Spotify">
+            <label for = "spotify">Spotify</label> <br>
+            <input type="radio" id = "apple" name = "fav_stream" value = "Apple Music">
+            <label for = "apple">Apple Music</label><br>
+            <input type="radio" id = "pandora" name = "fav_stream" value = "Pandora">
+            <label for = "pandora">Pandora</label> <br>
+            <input type="radio" id = "soundcloud" name = "fav_stream" value = "Soundcloud">
+            <label for = "soundcloud">Soundcloud</label> 
+            </fieldset>
+
+            <h3>Select your favorite place to listen to live music:</h3>
+            <select id = "location" name = "location" size = "1">
+                <option value="cafe">Cafe</option>
+                <option value="bar">Bar</option> 
+                <option value="areaorstadium">Arena or Stadium</option> 
+                <option value="djclub">DJ Club</option> 
+                <option value="other">Other</option>
+            </select><br>
+
+            <h3>Why do you enjoying listening to music?</h3>
+            <textarea name="question" rows="3" cols="60">
+            </textarea>
+
+            <input type="submit" id= "submit" value="Submit">
+
+        </form>
+      </div>
+    </body>
+    </html>
