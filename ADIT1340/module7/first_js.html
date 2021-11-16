@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>In Class: Javascript Elements</title>
+    <meta charset="UTF-8">
+   <meta name="description" content="Free Web tutorials">
+   <meta name="keywords" content="your, relevant, keywords, in, a, comma, separated, list">
+   <meta name="author" content="Your Name">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+       body { 
+           display: block;
+           margin-top: 20px;
+       }
+   </style>
+  </head>
+
+  <body> 
+    <h1>Javascript Example</h1>
+    <button name = "Message" type = "button" id = "myButton" onclick="hello()"> 
+    </button>
+
+    <div id = "date_display">
+        <button name = "Date" type = "button" id = "Button2" onclick="date()">
+        </button>
+    </div>
+    <script>
+    function hello() { 
+        document.getElementById("myButton").innerHTML = "Hi There!"; 
+    }
+    function date() { 
+        document.getElementById("Button2").innerHTML = Date(); 
+    }
+    </script>
+    
+  </body>
+  </html>
