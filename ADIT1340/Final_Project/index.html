@@ -1,25 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Your Page Title</title>
+    <title>Vivienne's Editing Gallery</title>
     <meta charset="UTF-8">
-   <meta name="description" content="Free Web tutorials">
-   <meta name="keywords" content="your, relevant, keywords, in, a, comma, separated, list">
-   <meta name="author" content="Your Name">
+   <meta name="description" content="Video editing gallery">
+   <meta name="keywords" content="video, after effects, school project, development, headpage">
+   <meta name="author" content="Vivienne Kupiecki">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles.css">
 
     <style>
-           <!-- internal/embedded styles here -->
+           ul { 
+               list-style-type: none; 
+               margin: 2; 
+               padding: 2; 
+               overflow: hidden; 
+               background-color: #333; 
+            } 
+            li { 
+                float: left;
+            }
+            li a { 
+                display: block; 
+                color: whitesmoke; 
+                text-align: center; 
+                padding: 15px 15px; 
+                text-decoration: none; 
+            } 
+            li a:hover { 
+                background-color: thistle;
+
+            }
+            .active { 
+                background-color: rgb(179, 155, 204);
+            }
 
 
     </style>
  </head>
 
  <body>
-<!--  your visible page content below -->
-Hello World!
+     <ul> 
+         <li><a href = index.html > Home</a></li>
+         <li><a class = "active" href = aboutme/aboutme.html> About Me</a></li>
+         <li ><a class = "active" href = contact/contact.html> Contact Me</a></li>
+         <li style = "float:right"><a href = 2017/2017.html> 2017</a> </li>
+         <li style = "float:right"><a href = 2018/2018.html> 2018</a></li>
+         <li style = "float:right"><a href = 2019/2019.html> 2019</a></li>
+         <li style = "float:right"><a href = 2020/2020.html> 2020</a></li>
+         <li style = "float:right"><a href = 2021/2021.html> 2021</a></li>
+     </ul>
+     <h1> Vivienne's Editing Gallery </h1>
+     <h2> Featured videos:</h2>
+     <div style = "width: 100%">
+        <div id = "video"> 
+        <iframe width="320" height="180" src="butterflyeffect.mp4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title = ""></iframe>
+            <p style = "width: 320px">
+                Created date: Monday, July 6th 2020 
+                Song(s) used: Butterfly Effect by Travis Scott
+                Show(s) used: Demon Slayer, original art 
+             </p>
+        </div> 
+        <div style = "width: 100%">
+            <div id = "video"> 
+            <iframe width="320" height="180" src="jean.mp4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title = ""></iframe>
+                <p style = "width: 320px">
+                    Created date: Friday, April 23rd, 2021 
+                    Song(s) used: Tuesday (Radio Edit) by Burak Yeter
+                    Show(s) used: Attack on Titan, Fourth Season 
+                 </p>
+            </div> 
+        
+
 
  </body>
 </html>
