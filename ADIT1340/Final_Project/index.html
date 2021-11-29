@@ -12,37 +12,35 @@
 
     <style>
 
-    .video div{
-        color: #1d4986; 
-        text-align: left;
-        padding-left: 45px;
-        float: left;
-        } 
-    .featured div{ 
-        float: left;
-    }
-           
-
-
+  
     </style>
  </head>
 
  <body>
-     <ul id = "nav"> 
-         <li><a href = index.html > Home</a></li>
-         <li><a class = "active" href = aboutme/aboutme.html> About Me</a></li>
-         <li ><a class = "active" href = contact/contact.html> Contact Me</a></li>
-         <li style = "float:right"><a href = 2017/2017.html> 2017</a> </li>
-         <li style = "float:right"><a href = 2018/2018.html> 2018</a></li>
-         <li style = "float:right"><a href = 2019/2019.html> 2019</a></li>
-         <li style = "float:right"><a href = 2020/2020.html> 2020</a></li>
-         <li style = "float:right"><a href = 2021/2021.html> 2021</a></li>
-     </ul>
+    <div class="navbar">
+        <a href = index.html > Home</a>
+        <a href = aboutme/aboutme.html> About Me</a>
+        <a href = contact/contact.html> Contact Me</a>
+        <div class="dropdown">
+          <button class="dropbtn">Archives
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href = 2017/2017.html> 2017</a> </li>
+            <a href = 2018/2018.html> 2018</a></li>
+            <a href = 2019/2019.html> 2019</a></li>
+            <a href = 2020/2020.html> 2020</a></li>
+            <a href = 2021/2021.html> 2021</a></li>
+          </div>
+        </div> 
+      </div>
+
+        
 
      <h1 style="text-align: center;"> Vivienne's Editing Gallery </h1>
      <h2> Featured videos:</h2>
      <div style = "width: 100%" id = "featured">
-        <div id = "video"> 
+        <div class = "video"> 
         <iframe width="320" height="180" src="butterflyeffect.mp4" title="Butterfly Effect Edit" frameborder="0" ></iframe>
             <p style = "width: 320px">
                 Created date: Monday, July 6th 2020 <br>
@@ -50,7 +48,7 @@
                 Show(s) used: Demon Slayer, original art <br>
              </p>
         </div> 
-        <div id = "video"> 
+        <div class = "video"> 
         <iframe width="320" height="180" src="jean.mp4" title="Jean Attack on Titan Edit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title = ""></iframe>
              <p style = "width: 320px">
                 Created date: Friday, April 23rd, 2021 <br>
@@ -58,7 +56,7 @@
                 Show(s) used: Attack on Titan, Fourth Season <br>
                 </p>
          </div> 
-                <div id = "video"> 
+                <div class = "video"> 
                 <iframe width="320" height="180" src="collab.mp4" title="Seraph of the End Collaboration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title = ""></iframe>
                     <p style = "width: 320px">
                             <strong>Created date:</strong> July 20th, 2020 <br>
@@ -69,13 +67,14 @@
             </div>
 
             <footer>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="index.html">Home</a></li>
-                        <li class="list-inline-item"><a href="aboutme/aboutme.html">About Me</a></li>
-                        <li class="list-inline-item"><a href="contact/contact.html">Contact Me</a></li>
-                    </ul>
-                    <p> @Vivienne Kupiecki, Introduction to Web Development. Fall 2021 </p>
-                    
+                    <div style = "float: none;" class="navbar" >
+                        <a href="index.html">Home</a>
+                        <a href="aboutme/aboutme.html">About Me</a>
+                        <a href="contact/contact.html">Contact Me</a>
+                    </div>
+
+                    <p>Vivienne Kupiecki, Introduction to Web Development. Fall 2021 </p>
+                   
                 </footer>
             
 
