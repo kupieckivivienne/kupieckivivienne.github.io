@@ -12,7 +12,7 @@ li{
 
 li a { 
         display: block; 
-        color: #662a19; 
+        color: #31140c; 
         text-align: center; 
         padding: 15px 15px; 
         text-decoration: none; 
@@ -23,6 +23,7 @@ li a:hover {
     }
     .active { 
         background-color: #7e92b8;
+        color:#31140c;
     }
 body {
     margin: 0;
@@ -31,3 +32,6 @@ body {
     background-color: #3e4a61
    
   }
+h1 { 
+    color: #d9dad7
+}
