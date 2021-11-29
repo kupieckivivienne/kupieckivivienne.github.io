@@ -23,15 +23,16 @@ li a:hover {
     }
     .active { 
         background-color: #7e92b8;
-        color:#31140c;
+        color:#d9dad7;
     }
 body {
     margin: 0;
     color: #d9dad7;
     text-align: left;
-    background-color: #3e4a61
+    background-color: #3e4a61; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    
   }
 h1 { 
-    color: #d9dad7
+    color: #e28065;
 }
