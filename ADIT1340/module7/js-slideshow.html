@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript image slideshow</title>
+    <meta charset="UTF-8">
+   <meta name="description" content="Javascript">
+   <meta name="keywords" content="images, image, Javascript">
+   <meta name="author" content="Vivienne Kupiecki">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="">
+
+    <style>
+       img { 
+           display: none; 
+           width: 100%; 
+       } 
+
+    </style>
+
+ </head>
+
+ <body>
+
+    <div>
+        <img src = "hongkong.jpg" alt = "hong kong photo">
+        <img src = "IMG_0491.jpg">
+        <img src = "IMG_2340.JPG"> 
+        
+    </div>
+    <script>
+        const images = document.querySelectorAll("img");
+
+        let i = 0; 
+        setInterval(function(){
+            images.forEach( (img,i) => {
+                img.style.display = 'none';
+            })
+
+            if (i == images.length) { 
+                i = 0; 
+            }
+            images[i].style.display = 'block';
+
+            i++; 
+
+            }, 2000)
+        
+    </script>
+
+
+
+ </body>
+</html>
