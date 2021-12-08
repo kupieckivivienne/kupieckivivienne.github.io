@@ -80,7 +80,7 @@ body {
 
 .video_content{ 
   float: left; 
-  padding: auto; 
+  padding: 50px; 
 }
 .video{
     color: #d9dad7; 
