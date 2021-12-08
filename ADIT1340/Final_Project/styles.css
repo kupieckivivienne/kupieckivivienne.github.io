@@ -86,16 +86,10 @@ body {
       border-width: 50%;
   }
 
-.video_content{ 
+.video_content { 
   float: left; 
-  padding: 50px; 
-}
-.video{
-    color: #d9dad7; 
-    border: #97a5bd;
-    text-align: center;
-    padding-left: 50px;
-    float: left;
+  padding: 30px; 
+  border: 5px solid whitesmoke; 
 }
      
 
