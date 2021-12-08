@@ -87,8 +87,9 @@ body {
   }
 
 .video_content { 
-  float: center;
-  padding: 30px; 
+  display: block; 
+  float: left;
+  padding: 25px; 
   border: 5px solid whitesmoke; 
   margin-left: auto;
   margin-right: auto;
