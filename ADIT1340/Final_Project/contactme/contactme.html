@@ -12,7 +12,7 @@
     <style>
         input#submit {
     display:block;
-    background-color: #97a5bd;
+    background-color: #d9dad7;
     color: #c24d2c;; 
     font-weight:bold;
     padding: 20px;
@@ -20,16 +20,20 @@
     }
     #submit:hover {
     background-color: #c24d2c;
-    color: #97a5bd;
-    border:2px solid #d9dad7;
+    color: #d9dad7;
+    border:2px solid black;
             }
+    .header {
+        text-align: center; 
+        border: 3px solid rgb(222, 178, 233);
+    }
     </style>
     </head>
     
  <body>
     <div class="navbar">
         <a href = ../index.html > Home</a>
-        <a href = ../aboutme.html> About Me</a>
+        <a href = ../aboutme/aboutme.html> About Me</a>
         <a href = contactme.html> Contact Me</a>
         <div class="dropdown">
           <button class="dropbtn" >Archives
@@ -48,8 +52,8 @@
       <img src = "../project_banner.png" alt = "Vivienne's Video Gallery Banner" width = 90% class = "center">  
 
 
-    <h1>Contact Me</h1>
-    <h3>Please fill out the form below to ask me a question or contact me. I will answer your request as soon as possible!</h3>
+    <h1 class = "header">Contact Me</h1>
+    <h3 class = "header">Please fill out the form below to ask me a question or contact me. I will answer your request as soon as possible!</h3>
     <form action = "https://idesstage2.bc.edu/class/results.php" method="post"> 
         <h4>Your First Name:</h4>
         <input type = "text" id = "fname" name = "fname">
@@ -70,20 +74,35 @@
             <input type="checkbox" id="video5" name="video5" value="None">
             <label for="video6">None</label><br>
             </fieldset>
-        <h4>Would you be interested in tutorials for any of the </h4>
+        <fieldset>
+        <h4 class = "header">Would you be interested in tutorials for any of the above? </h4>
             <input type = "radio" id = "yes" name = "answer" value = "Yes"> 
                 <label for = "yes">Yes</label><br> 
             <input type = "radio" id = "no" name = "answer" value = "No"> 
             <label for = "no">No</label><br> 
+        </fieldset>
 
 
-            <h4>Please type your question here:</h4>
+        <h4 class = "header">Please type your question here:</h4>
             <textarea name="question" rows="6" cols="30">
             </textarea>
 
             <input type="submit" id= "submit" value="Submit">
     </form>
 
+    <footer>
+        <div class = "footer">
+            <p class="footer-text-left">
+                <a href="../index.html" >Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="../contact/contact.html">Contact Me</a>
+            </p> 
+            <p class = "footer-text-right"> 
+                <i> @Vivienne Kupiecki Introduction to Web Development, Fall 2021</i>
+            </p>
+            
+        </div>   
+    </footer>
 
 </body>
 </html>
