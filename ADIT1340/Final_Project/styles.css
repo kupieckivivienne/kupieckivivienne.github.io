@@ -78,7 +78,10 @@ body {
       border-width: 50%;
   }
 
-  
+.video_content{ 
+  float: left; 
+  padding: auto; 
+}
 .video{
     color: #d9dad7; 
     border: #97a5bd;
