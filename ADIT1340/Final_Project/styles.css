@@ -1,7 +1,5 @@
 
-html { 
-    
-}
+
 .navbar{ 
     overflow: hidden; 
     background-color:#1a2639; 
@@ -74,6 +72,11 @@ body {
     font-family: Andale Mono, monospace;
   }
 
+  h1 { 
+      text-align: center;
+      border: 3px dotted whitesmoke; 
+      border-width: 50%;
+  }
 
   
 .video{
