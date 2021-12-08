@@ -90,7 +90,8 @@ body {
   float: left; 
   padding: 30px; 
   border: 5px solid whitesmoke; 
-  border-spacing: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
      
 
