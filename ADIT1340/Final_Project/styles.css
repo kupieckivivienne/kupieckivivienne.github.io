@@ -3,6 +3,7 @@
 .navbar{ 
     overflow: hidden; 
     background-color:#1a2639; 
+    padding: 5px;
 }
 
 .center {
@@ -14,7 +15,6 @@
   }
 
 .navbar a{
-    border-left: 4px solid white; 
     float: left;
     font-size: 16px;
     color: #97a5bd;
@@ -47,7 +47,6 @@
 }
 
 .dropdown {
-    border-left: 4px solid white; 
     float: right;
     overflow: hidden;
     }
