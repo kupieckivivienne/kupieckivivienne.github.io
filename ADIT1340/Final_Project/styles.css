@@ -31,9 +31,10 @@
     }
 
   .logo-image{
-      width: 46px;
-      height: 46px;
-      margin: auto;
+      width: 80px;
+      height: 80px;
+      overflow: hidden;
+      margin-top: -6px;
   }
 
 .dropdown-content {
