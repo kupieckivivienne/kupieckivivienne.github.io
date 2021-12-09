@@ -4,6 +4,7 @@
     overflow: hidden; 
     background-color:#1a2639; 
     padding: 5px;
+    font-size: 20px;
 }
 
 .center {
@@ -30,9 +31,8 @@
     }
 
   .logo-image{
-      width: 46px;
-      height: 46px;
-      border-radius: 50%;
+      width: 80px;
+      height: 80px;
       overflow: hidden;
       margin-top: -6px;
   }
