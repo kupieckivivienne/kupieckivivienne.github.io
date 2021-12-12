@@ -10,6 +10,8 @@
 .center {
   width: 60%;
   display: block;
+  float: center;
+
   }
 
 .navbar a{
@@ -92,13 +94,11 @@ body {
   }
 
 .video_content { 
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -100px;
-  display: block; 
-  position:fixed; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
   padding: 25px; 
+
  
 }
      
