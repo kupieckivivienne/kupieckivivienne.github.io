@@ -10,7 +10,8 @@
 .center {
   width: 60%;
   display: block;
-  float: center;
+  margin-left: auto;
+  margin-right: auto;
 
   }
 
