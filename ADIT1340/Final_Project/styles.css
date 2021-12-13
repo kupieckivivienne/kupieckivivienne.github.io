@@ -96,9 +96,9 @@ body {
 
 .video_content { 
   display: flex;
-  justify-content: space-between;
+  justify-content:center; 
   align-items: center; 
-  padding: 25px; 
+  padding: 20px; 
 
  
 }
