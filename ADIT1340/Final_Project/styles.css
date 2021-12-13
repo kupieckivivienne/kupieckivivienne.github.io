@@ -95,12 +95,18 @@ body {
   }
 
 .video_content { 
-  display: flex;
-  justify-content:center; 
-  align-items: center; 
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 20px; 
 
  
+}
+.description { 
+  width: 400px; 
+  border-color:#d9dad7; 
+  border-width:10px; 
+  border-style:outset;
 }
      
 
